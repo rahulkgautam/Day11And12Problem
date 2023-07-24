@@ -7,7 +7,7 @@ namespace Day11And12Problem
     {
         static void Main(string[] args)
         {
-            CountFrequency.Frequency();
+            MaxMinArray.MaxAndMin();
         }
     }
     
