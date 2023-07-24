@@ -8,6 +8,7 @@ namespace Day11And12Problem
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to pattern program and logical");
+            ArrayDuplicateElement.Duplicate();
         }
     }
     
