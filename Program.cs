@@ -7,9 +7,11 @@ namespace Day11And12Problem
     {
         static void Main(string[] args)
         {
-
-            PatternProgram.Pattern();
+            string inputString = "BridgeLabz, how are you?";
+            string reversedString = Reverse.ReverseWords(inputString);
+            Console.WriteLine(reversedString);
         }
+        
     }
     
 }
