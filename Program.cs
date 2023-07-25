@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 
 namespace Day11And12Problem
 {
@@ -7,11 +8,14 @@ namespace Day11And12Problem
     {
         static void Main(string[] args)
         {
-            int number = 12345;
-            int sumOfDigits = SumOfAllDigit.SumOfDigits(number);
-            Console.WriteLine("Sum of digits of {0} is: {1}", number, sumOfDigits);
+            string inputString = "This is a title";
+            string capitalizedString = Capitalization.CapitalizeFirstLetter(inputString);
+            string inputString2 = "Welcome to the RFP batch";
+            string capitalizedString2 = Capitalization.CapitalizeFirstLetter(inputString2);
+            Console.WriteLine("1st Words :"+capitalizedString+"\n2nd Words: "+capitalizedString2);
         }
         
+
     }
     
 }
