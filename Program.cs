@@ -8,11 +8,9 @@ namespace Day11And12Problem
     {
         static void Main(string[] args)
         {
-            string inputString = "This is a title";
-            string capitalizedString = Capitalization.CapitalizeFirstLetter(inputString);
-            string inputString2 = "Welcome to the RFP batch";
-            string capitalizedString2 = Capitalization.CapitalizeFirstLetter(inputString2);
-            Console.WriteLine("1st Words :"+capitalizedString+"\n2nd Words: "+capitalizedString2);
+            int[] numbers = { 10, -5, 3, 8, -2, 1, 7 };
+            int sumOfTwoLowestPositiveNumbers = LowestArray.FindSumOfTwoLowestPositiveNumbers(numbers);
+            Console.WriteLine("Sum of the two lowest positive numbers: " + sumOfTwoLowestPositiveNumbers);
         }
         
 
