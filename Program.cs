@@ -7,9 +7,8 @@ namespace Day11And12Problem
     {
         static void Main(string[] args)
         {
-            MaxMinArray.MaxAndMin();
+            PatternProgram.Pattern();
         }
     }
-    
     
 }
