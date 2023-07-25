@@ -7,9 +7,9 @@ namespace Day11And12Problem
     {
         static void Main(string[] args)
         {
-            string inputString = "BridgeLabz, how are you?";
-            string reversedString = Reverse.ReverseWords(inputString);
-            Console.WriteLine(reversedString);
+            int number = 12345;
+            int sumOfDigits = SumOfAllDigit.SumOfDigits(number);
+            Console.WriteLine("Sum of digits of {0} is: {1}", number, sumOfDigits);
         }
         
     }
