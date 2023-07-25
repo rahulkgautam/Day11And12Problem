@@ -7,6 +7,7 @@ namespace Day11And12Problem
     {
         static void Main(string[] args)
         {
+
             PatternProgram.Pattern();
         }
     }
